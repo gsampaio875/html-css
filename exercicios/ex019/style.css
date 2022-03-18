@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body{
+    background-image: linear-gradient(to right, #b7ffb5, #95d193);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: darkgreen;
+}
+h2{
+    color:rgb(14, 83, 14)
+}
+
+#titulo-principal {
+    font-size: 3em;
+    text-align: center;
+    background-color: white;
+    color: rgb(15, 61, 9)
+}
+.topico {
+    color: rgb(128, 67, 128);
+}
+p {
+    text-align: justify;
+    color: rgb(30, 46, 25);
+}

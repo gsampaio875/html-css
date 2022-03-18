@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Aprendendo a trabalhar com links</h1>
+    <h2>Links externos</h2>
+    <p>Para indexar links externos é utilizado a tag &lt;a&gt; (que vem de âncora, ou ancoragem) seguido do parâmetro href com a url do link que vai ser acessado. É de bom tom que se use o target="_blank" e rel="external"</p>
+    <p>Aqui vai um teste! Clicando no botão <a href="https://www.youtube.com/playlist?list=PLP4PIMHUmEcUMmnd_9t9pIZcGtKUBw3wG" target="_blank" ref="external">Hip Hop</a>, você será direcionado a minha playlist de música favorita</p>
+    <h2>Links internos</h2>
+    <p>Já os links internos, a mesma tag &lt;a&gt; é usada. No entanto o parâmetro href pode ser o caminho na pasta. Nesse caso, target="_self" e rel="next" ou rel="prev", a depender se o link em questão trata-se da próxima página ou da anterior</p>
+    <p>Vamos realizar o segundo teste. O botão <a href="pagina2.html" target="_self" rel="next"> Exercício 1</a> vai te levar para o meu primeiro exercício de HTML</p>
+    <h2>Fazendo download com links</h2>
+    <p>Para usar um link como botão de download, nós podemos usar a tag &lt;a&gt; e no pârametro href indicar o caminho do arquivo na pasta. Usamos também o pârametro download="arquivo.extensão" com o type="application/pdf" por exemplo.</p>
+    <p>Vamos testar! <br> Baixe aqui a foto do: </p>
+    <ul>
+        <li><a href="imagens/max.zip" download="max.zip" type="application/zip">Campeão da Fórmula 1 2021 (Zip)</a></li>
+        <li><a href="imagens/batman.png" download="batman.png" type="image/png">Wallpaper do batman (PNG)</a></li>
+    </ul>
+</body>
+</html>
