@@ -8,15 +8,20 @@
     <style>
         body{
             font-family: Arial, Helvetica, sans-serif;
-            background-color: rgb(255, 255, 226);
+            /*background-color: rgb(255, 255, 226);
             background-image: url(imagens/wallpaper002.jpg);
-            background-repeat: no-repeat;
             background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: scroll;
+            
+            USANDO SHORTHAND -> NESSA ORDEM, COLOR IMAGE POSITION REPEAT [SIZE] ATTACHMENTE OBS: SIZE NEM SEMPRE FUNCIONA, TEM Q COLOCAR SEPARADO*/
+            background:black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
             background-size: cover;
         }
         main{
             background-color: white;
-            width: 600px;
+            max-width: 600px;
             padding: 15px;
             margin: auto;
             border: 2px solid black;
